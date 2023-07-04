@@ -1,0 +1,156 @@
+:root {
+  --main-color: rgb(243, 243, 248);
+  --hover-color: rgb(153, 153, 173);
+  --header-color: rgb(48, 48, 51);
+  --logo-color: rgb(74, 85, 85);
+  --text-color: rgb(161, 188, 228);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+  /* background: var(--main-color); */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  padding: 10px;
+  color: var(--header-color);
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--header-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+header h1 {
+  margin-right: auto;
+  display: inline-block;
+  padding: 0px 10px;
+  align-items: center;
+  background-color: var(--logo-color);
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.nav-list {
+  display: flex;
+  padding-top: 15px;
+  font-size: 20px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav-list a {
+  color: var(--text-color);
+}
+
+.hero-banner {
+  background-image: url(../images/02-hero-bg.jpg);
+  background-size: cover;
+  height: 120px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
+.hero-banner h2 {
+  display: flex;
+  color: var(--main-color);
+  padding: 10px;
+  background: var(--header-color);
+  /* margin-right:auto; */
+  margin: 10px 20px;
+}
+
+.page-wrapper {
+  margin: 20px;
+  padding: 0;
+  /* display: inline; */
+  /* width: 80%; */
+}
+
+.page-section {
+  display: flex;
+  /* border: 2px solid var(--main-color); */
+}
+p {
+  margin: 0;
+  padding: 20px;
+  /* width: 80%; */
+  /* display: inline; */
+}
+
+h2 {
+  margin: 0;
+  padding: 10px;
+  /* border-bottom: 3px solid black;  */
+  /* margin: 0; */
+  padding: 10px;
+  border-right: 3px solid black;
+  /* width: 20%; */
+}
+
+.surf {
+  /* width: 50%; */
+  padding: 20px;
+  /* background-size: cover;
+  background-position: center; */
+}
+img {
+  width: 100%;
+  /* height:  ; */
+}
+/* .grid {
+  display: grid;
+  grid-template-rows: 300px 100px 100px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "a a" "b c" "d e";
+  gap: 10px;
+  /* margin: 20px; */
+  /* width: 100%; */
+/* } */
+
+/* #a {
+  grid-area: a;
+  background-image: url("../images/02-run-buddy.jpg");
+  background-size: cover;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px;
+  justify-content: flex-end;
+}
+
+#b {
+  border: 3px solid red;
+}
+
+#c {
+  border: 3px solid blue;
+}
+
+#d {
+  border: 3px solid green;
+}
+
+#e {
+  border: 3px solid ye
