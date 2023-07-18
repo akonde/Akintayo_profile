@@ -8,6 +8,7 @@ This webpage talks about me, my contact, and my curriculum vitae.
 https://akonde.github.io/Console-Finances/
 
 ## INSTALLATION 
+N/A
 
 ## Usage
 
